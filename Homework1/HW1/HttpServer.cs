@@ -24,7 +24,7 @@ public class HttpServer
             byte[] buffer = new byte[0];
             try
             {
-                string responseString = File.ReadAllText(@"C:\Users\Impl\RiderProjects\Egorov_R_11-107_ORIS\Solution\HW1\index.html");
+                string responseString = File.ReadAllText(@"C:\Users\Impl\RiderProjects\Egorov_R_11-107_ORIS\Homework1\HW1\index.html");
                 buffer = Encoding.UTF8.GetBytes(responseString);
             }
             catch (Exception e)
